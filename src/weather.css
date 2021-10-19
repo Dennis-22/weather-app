@@ -1,0 +1,144 @@
+.body{
+    background: rgb(236,236,227);
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.whether-form-input{
+    text-align: center;
+}
+
+.input{
+    width: 50%;
+    padding: .4rem .7rem;
+    border: none;
+    border-radius: 5px;
+    /* background: chartreuse; */
+}
+
+.date-display{
+    font-size: 1.2rem;
+    font-family: inter;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+
+.loading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    /* background: red; */
+}
+
+.loading-weather{
+    font-size: 2rem;
+    font-family: inter;
+}
+
+.ins-div{
+    margin-top: 20vh;
+    display: grid;
+    place-items: center;
+}
+
+.instruction{
+    /* margin-top: 10rem; */
+    /* text-align: center; */
+    font-family: sans serif;
+}
+
+.ins-icon{
+    margin-top: 2rem;
+    font-size: 5rem;
+    color: red;
+}   
+
+.main-weather{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+}
+
+
+.w-img{width: 200px;}
+.w-temp,.w-desc{
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+
+.w-temp{color:rgba(51, 51, 51, 0.5)}
+.w-desc{color: #ffc107; font-weight: bold;}
+
+
+.alt-desc{
+    font-family: inter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-weather{
+    padding: 20px;
+    background: #fff;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.desc-text{
+    color:rgba(51, 51, 51, 0.637)
+}
+.desc-icon{
+    font-size: 3rem;
+    color:#007bff;
+    margin: .4rem auto;
+}
+
+.val{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1rem;
+    /* color: #ffc107; */
+}
+
+.footer{
+    background: rgb(61,61,61);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    height: auto;
+    margin-bottom: 0;
+}
+    
+
+@media screen and (max-width: 700px){
+    .date-display{font-size: 1rem;}
+    .whether-form-input{width: 100%; margin-bottom: 10px; margin-top: 10px;}
+    .input{width: 95%;}
+    .search-btn{margin-top: 10px;}
+    .instruction{font-size: 1.2rem;}
+    .loading-div{height: 45vh;}
+    .loading-weather{font-size: 1rem;}
+    .w-country{font-size: 1.8rem;}
+    .main-weather{width: 100%; display: flex; align-items: center; justify-content: center;}
+    .w-temp,.w-desc{font-size: 1.3rem;}
+    .w-img{width: 150px;}
+    .alt-desc{font-size: .9rem; flex-wrap: wrap;}
+    .sub-weather{width: 46%; margin: 1rem auto; text-align: center;}
+}

@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: hsl(210, 36%, 96%); */
+}
+
+/* .container{
+  background: hsl(210, 36%, 96%);
+} */
+
+.error-main{
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 30px;
+}
+
+.error-main{
+  display: flex;
+  flex-direction: column;
+}
+
