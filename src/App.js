@@ -6,14 +6,13 @@ import earth from './Images/earth.png'
 
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { FaGlobeEurope } from "react-icons/fa";
 import { TiCancel } from "react-icons/ti";
 import { RiSignalWifiErrorLine } from "react-icons/ri";
 
 
 
 const api = {
-  key: "0f39c7ab873d2a4b2c58a3b9f9a3a455"
+  key: process.env.REACT_APP_MY_API_KEY 
   // http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
 }
 
